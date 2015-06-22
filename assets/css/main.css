@@ -3732,7 +3732,7 @@
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 44px !important;
+				padding-top: 0px !important;
 			}
 
 			#titleBar {
@@ -3744,7 +3744,7 @@
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: block;
+				display: none; /* originally block */
 				height: 44px;
 				left: 0;
 				position: fixed;
